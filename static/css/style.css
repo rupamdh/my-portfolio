@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+}
+
+p {
+  font-size: 16px;
+  color: #222;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif;
+  color: #0f4231;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #0f4231;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1240px;
+}
+
+.btn {
+  border-radius: 0;
+  padding: 10px 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  min-width: 140px;
+}
+
+.btn-sm {
+  min-width: auto;
+}
+
+.btn-success {
+  background-color: #0f4231;
+  border-color: #0f4231;
+}
+
+.text-dark {
+  color: #000 !important;
+}
+
+.text-success {
+  color: #0f4231 !important;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.pad {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.toppad {
+  padding-top: 60px;
+}
+
+.bottompad {
+  padding-bottom: 60px;
+}
+
+.form-control {
+  height: 45px;
+  border-radius: 0;
+}
+
+.logo img {
+  max-height: 130px;
+}
+
+.reg-img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.notebook {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 10px;
+  font-weight: 500;
+  box-shadow: 0 0 5px #b7b7b7;
+}
+.notebook i {
+  margin-right: 5px;
+}
+.notebook span {
+  font-size: 12px;
+}
+
+.note-content h1 {
+  font-weight: 500;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+.note-content .note-info {
+  padding: 5px 0;
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+}
+.note-content .note-info i {
+  color: #0f4231;
+}
+.note-content .note-info span {
+  color: #000;
+}
+
+.contact-box {
+  height: 100%;
+  padding: 30px 0;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #ddd;
+}
+.contact-box i {
+  color: #0f4231;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.contact-box a {
+  color: #0755a9;
+  font-size: 20px;
+}
+.contact-box a:hover {
+  color: #0f4231;
+}/*# sourceMappingURL=style.css.map */
