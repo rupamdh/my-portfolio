@@ -12,20 +12,67 @@
     <script src="/static/js/jquery.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-	
-
-    <main class="site">
-        <div class="page-content">            
-            {% block 'content' %}{% endblock 'content' %}
+	<div class="container-fluid px-0">
+        <div class="row gx-0">
+            <div class="col-md-3">
+                <div class="sidebar">
+                    <img class="profile-img" src="/static/images/rupam.jpg" alt="">
+                    <h1 class="fw-medium mb-1 name">Rupam Dhara</h1>
+                    <h2 class="role">Full-Stack Developer</h2>
+                    <div class="divider my-4"></div>
+                    <div class="side-info">
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-sharp fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="text">
+                                <span>Email</span><br>
+                                <p><a href="mailto:rupamdhara.1579@gmail.com">rupamdhara.1579@gmail.com</a></p>
+                            </div>
+                        </div>
+                         <div class="item">
+                            <div class="icon">
+                                <i class="fa-sharp fa-solid fa-phone"></i>
+                            </div>
+                            <div class="text">
+                                <span>Phone</span><br>
+                                <p><a href="tel:6295828230">(+91) 62958 28230</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                            <div class="text">
+                                <span>Website</span><br>
+                                <p><a href="https://github.com/rupamdh" target="_blank">https://github.com/rupamdh</a></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="text">
+                                <span>Address</span><br>
+                                <p><a href="#">Kolkata, West Bengal</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider my-4"></div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                {% block 'content' %}{% endblock 'content' %}
+            </div>
         </div>
-    </main>
+    </div>
 
-
+    
 	<script src="/static/js/bootstrap.bundle.js"></script>
 	<script src="/static/js/swiper.js"></script>
 	<script src="/static/js/script.js"></script>
