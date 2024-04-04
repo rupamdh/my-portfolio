@@ -475,14 +475,14 @@ img{
             background-color: #F7F9FC;
             &:first-child{
                 border-radius: 5px 5px 0 0;
-                background-color: rgba($color: #9251F7, $alpha: 0.1);
+                background-color: rgba($color: #312163, $alpha: 0.6);
             }
             .left{
                 span{
-                    color: #79819A;
+                    color: #A8ABB0;
                 }
                 p{
-                    color: #2E2E48;
+                    color: $white;
                 }
             }
             .right{
@@ -518,6 +518,9 @@ img{
                 h5{
                     color: $white;
                 }
+                p{
+                    color: #ACB1C3;
+                }
                 a{
                     color: $white;
                     &:hover{
@@ -544,3 +547,4 @@ img{
         }
     }
 }
+

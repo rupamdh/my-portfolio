@@ -467,13 +467,13 @@ img {
 }
 .dark .experience .item:first-child {
   border-radius: 5px 5px 0 0;
-  background-color: rgba(146, 81, 247, 0.1);
+  background-color: rgba(49, 33, 99, 0.6);
 }
 .dark .experience .item .left span {
-  color: #79819A;
+  color: #A8ABB0;
 }
 .dark .experience .item .left p {
-  color: #2E2E48;
+  color: #fff;
 }
 .dark .experience .item .right .present {
   background-color: #5531A7;
@@ -500,6 +500,9 @@ img {
 }
 .dark .projects .item .cont h5 {
   color: #fff;
+}
+.dark .projects .item .cont p {
+  color: #ACB1C3;
 }
 .dark .projects .item .cont a {
   color: #fff;
