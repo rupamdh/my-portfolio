@@ -158,6 +158,7 @@ img{
     padding: 30px;
     min-height: 100%;
     position: fixed;
+    min-width: 365px;
 }
 .profile-img{
     width: 144px;
@@ -209,7 +210,9 @@ img{
     }
 }
 .home-content{
-    padding-top: 100px;
+    padding-top: 40px;
+    margin-left: 364px;
+    padding-right: 50px;
 }
 .sec{
     padding-left: 50px;
@@ -289,6 +292,7 @@ img{
         }
     }
 }
+
 .projects{
     display: flex;
     gap: 10px;
@@ -331,6 +335,7 @@ img{
         }
     }
 }
+
 .imgs{
     display: flex;
     align-items: center;
@@ -417,3 +422,125 @@ img{
     }
 }
 
+.dark {
+    background-color: #232339;
+    .sidebar{
+        background-image: url(../images/sidebar-dark.png);
+    }
+    .name{
+        color: $white;
+    }
+    .side-info{
+        .item{
+            .icon{
+                background-color: #2E2E48;
+                i{
+                    color: $white;
+                }
+            }
+            .text{
+                span{
+                    color: #ACB1C3;
+                }
+                a{
+                    color: $white;
+                    font-family: $dm;
+                    font-size: 18px;
+                    &:hover{
+                        color: #8f8fe6;
+                    }
+                }
+            }
+        }
+    }
+    .divider{
+        background-color: #475062;
+    }
+    .sec{
+        border-color: #46466F !important;
+        h2{
+            color: $white;
+            &::before{
+                color: #C696FC;
+                box-shadow: none;
+                width: 34px;
+                height: 34px;
+                @include center();
+            }
+        }
+    }
+
+    .experience{
+        .item{
+            background-color: #F7F9FC;
+            &:first-child{
+                border-radius: 5px 5px 0 0;
+                background-color: rgba($color: #9251F7, $alpha: 0.1);
+            }
+            .left{
+                span{
+                    color: #79819A;
+                }
+                p{
+                    color: #2E2E48;
+                }
+            }
+            .right{
+                .present{
+                    background-color: #5531A7;
+                    color: $white;
+                }
+                .loc{
+                    color: #79819A;
+                }
+            }
+        }
+    }
+    .tools{
+        .item{
+            background-color: #2E2E48;
+            .icn{
+                background-color: transparent;
+                box-shadow: none;
+            }
+            h5{
+                color: $white;
+            }
+            p{
+                color: #ACB1C3;
+            }
+        }
+    }
+    .projects{
+        .item{
+            .cont{
+                background-color: #2E2E48;
+                h5{
+                    color: $white;
+                }
+                a{
+                    color: $white;
+                    &:hover{
+                        color: #7b7bc2;
+                    }
+                }
+            }
+        }
+    }
+    .education{
+        .item{
+            background-color: #2e2e48;
+            .title{
+                span{
+                    color: #2E2E48;
+                }
+            }
+            p{
+                color: $white;
+            }
+            span{
+                color: #ACB1C3;
+            }
+        }
+    }
+}

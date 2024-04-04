@@ -153,6 +153,7 @@ img {
   padding: 30px;
   min-height: 100%;
   position: fixed;
+  min-width: 365px;
 }
 
 .profile-img {
@@ -210,7 +211,9 @@ img {
 }
 
 .home-content {
-  padding-top: 100px;
+  padding-top: 40px;
+  margin-left: 364px;
+  padding-right: 50px;
 }
 
 .sec {
@@ -413,4 +416,106 @@ img {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 17px;
+}
+
+.dark {
+  background-color: #232339;
+}
+.dark .sidebar {
+  background-image: url(../images/sidebar-dark.png);
+}
+.dark .name {
+  color: #fff;
+}
+.dark .side-info .item .icon {
+  background-color: #2E2E48;
+}
+.dark .side-info .item .icon i {
+  color: #fff;
+}
+.dark .side-info .item .text span {
+  color: #ACB1C3;
+}
+.dark .side-info .item .text a {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+}
+.dark .side-info .item .text a:hover {
+  color: #8f8fe6;
+}
+.dark .divider {
+  background-color: #475062;
+}
+.dark .sec {
+  border-color: #46466F !important;
+}
+.dark .sec h2 {
+  color: #fff;
+}
+.dark .sec h2::before {
+  color: #C696FC;
+  box-shadow: none;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dark .experience .item {
+  background-color: #F7F9FC;
+}
+.dark .experience .item:first-child {
+  border-radius: 5px 5px 0 0;
+  background-color: rgba(146, 81, 247, 0.1);
+}
+.dark .experience .item .left span {
+  color: #79819A;
+}
+.dark .experience .item .left p {
+  color: #2E2E48;
+}
+.dark .experience .item .right .present {
+  background-color: #5531A7;
+  color: #fff;
+}
+.dark .experience .item .right .loc {
+  color: #79819A;
+}
+.dark .tools .item {
+  background-color: #2E2E48;
+}
+.dark .tools .item .icn {
+  background-color: transparent;
+  box-shadow: none;
+}
+.dark .tools .item h5 {
+  color: #fff;
+}
+.dark .tools .item p {
+  color: #ACB1C3;
+}
+.dark .projects .item .cont {
+  background-color: #2E2E48;
+}
+.dark .projects .item .cont h5 {
+  color: #fff;
+}
+.dark .projects .item .cont a {
+  color: #fff;
+}
+.dark .projects .item .cont a:hover {
+  color: #7b7bc2;
+}
+.dark .education .item {
+  background-color: #2e2e48;
+}
+.dark .education .item .title span {
+  color: #2E2E48;
+}
+.dark .education .item p {
+  color: #fff;
+}
+.dark .education .item span {
+  color: #ACB1C3;
 }/*# sourceMappingURL=style.css.map */

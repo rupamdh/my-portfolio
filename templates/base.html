@@ -15,10 +15,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 </head>
 
-<body>
+<body class="dark">
 	<div class="container-fluid px-0">
         <div class="row gx-0">
-            <div class="col-md-3">
+            <div class="col-auto">
                 <div class="sidebar">
                     <img class="profile-img" src="/static/images/rupam.jpg" alt="">
                     <h1 class="fw-medium mb-1 name">Rupam Dhara</h1>
@@ -65,7 +65,7 @@
                     <div class="divider my-4"></div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-auto">
                 {% block 'content' %}{% endblock 'content' %}
             </div>
         </div>
